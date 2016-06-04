@@ -1,0 +1,41 @@
+{
+  "name": "muscle-assert",
+  "description": "Muscle Assert in JavaScript",
+  "version": "0.0.1",
+  "author": {
+    "name": "pocketberserker",
+    "email": "pocketberserker@gmail.com",
+    "url": "https://github.com/pocketberserker"
+  },
+  "dependencies": {
+    "deep-diff": "^0.3.4",
+    "universal-deep-strict-equal": "1.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-power-assert": "1.0.0",
+    "babel-register": "6.9.0",
+    "mocha": "2.5.3",
+    "power-assert": "1.4.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "license": "MIT",
+  "main": "lib/muscle-assert.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pocketberserker/muscle-assert"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "prepublish": "npm run --if-present build",
+    "test": "mocha",
+    "watch": "babel src --out-dir lib --watch --source-maps"
+  }
+}
