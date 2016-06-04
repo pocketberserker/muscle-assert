@@ -17,7 +17,8 @@
     "babel-preset-power-assert": "1.0.0",
     "babel-register": "6.9.0",
     "mocha": "2.5.3",
-    "power-assert": "1.4.1"
+    "power-assert": "1.4.1",
+    "stringifier": "1.2.0"
   },
   "directories": {
     "test": "test"
