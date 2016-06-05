@@ -27,6 +27,10 @@
     "src/",
     "lib/"
   ],
+  "keywords": [
+    "assert",
+    "diff"
+  ],
   "license": "MIT",
   "main": "lib/muscle-assert.js",
   "repository": {
