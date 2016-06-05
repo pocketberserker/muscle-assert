@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "deep-diff": "^0.3.4",
+    "stringifier": "^1.2.0",
     "universal-deep-strict-equal": "^1.2.1"
   },
   "devDependencies": {
@@ -17,8 +18,7 @@
     "babel-preset-power-assert": "1.0.0",
     "babel-register": "6.9.0",
     "mocha": "2.5.3",
-    "power-assert": "1.4.1",
-    "stringifier": "1.2.0"
+    "power-assert": "1.4.1"
   },
   "directories": {
     "test": "test"
