@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "deep-diff": "^0.3.4",
-    "universal-deep-strict-equal": "1.2.1"
+    "universal-deep-strict-equal": "^1.2.1"
   },
   "devDependencies": {
     "babel-cli": "6.9.0",
